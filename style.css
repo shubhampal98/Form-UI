@@ -1,0 +1,113 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.greyc {
+  color: grey;
+}
+
+.blackc {
+  color: black;
+}
+
+.main-list {
+  font-size: 12px;
+}
+
+.text-list {
+  font-size: 16px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+#middle-section {
+  height: 100vh;
+  border: 1px solid black;
+}
+
+
+#left-section {
+  /* background-color: red; */
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.pb1 {
+  padding-bottom: 1rem;
+}
+
+.pb2 {
+  padding-bottom: 2rem;
+}
+
+#left-section h1{
+  border-bottom: 1px solid grey;
+  width: fit-content;
+  padding-bottom: 1rem;
+}
+
+#test-info ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#test-info ul div {
+  margin: 1rem;
+}
+
+#right-section {
+  width: 40%;
+  border: 1px solid grey;
+  font-size: 12px;
+  padding: 1rem;
+}
+
+#form-section{
+  margin: auto;
+}
+
+#right-section div{
+  border-bottom: 1px solid grey;
+  
+}
+
+#right-section div h1{
+  border-bottom: 1px solid blue;
+  width: fit-content;
+  height: 100%;
+  margin-left: 1rem;
+}
+
+#right-section form {
+  padding: 1rem;
+}
+
+form #email {
+  width: 100%;
+}
+
+#fname {
+  width: 50%;
+}
+#lname {
+  width: 50%;
+}
+#gender {
+  width: 50%;
+}
+#country {
+  width: 50%;
+}
